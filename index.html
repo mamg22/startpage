@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Nueva Pestaña</title>
+    <link rel="stylesheet" href="index.css">
+    <script type="text/javascript" src="index.js"></script>
+    <link rel="icon" href="favicon.png">
+</head>
+
+<body onload="update_clock(); setInterval('update_clock()', 10000)">
+    <div class="container">
+        <div class="title">Welcome Back</div>
+        <div id="clock">--:----</div>
+        <form class="search-bar" action="https://duckduckgo.com/">
+            <input autofocus type="search" name="q" placeholder="Buscar en DuckDuckGo"></input>
+        </form>
+
+        <div class="bookmark-container">
+            <div class="bookmark-set">
+                <div class="bookmark-title">Entertainment</div>
+                <div class="bookmark-inner-container">
+                    <div class="bookmark"><a href="https://www.reddit.com/">Reddit</a></div>
+                    <div class="bookmark"><a href="https://www.youtube.com/">Youtube</a></div>
+                </div>
+            </div>
+            <div class="bookmark-set">
+                <div class="bookmark-title">Social</div>
+                <div class="bookmark-inner-container">
+                    <div class="bookmark"><a href="https://riot.im/app">Riot.im</a></div>
+                    <div class="bookmark"><a href="https://discordapp.com/channels/@me">Discord</a></div>
+                    <div class="bookmark"><a href="https://web.whatsapp.com/">Whatsapp Web</a></div>
+                </div>
+            </div>
+            <div class="bookmark-set">
+                <div class="bookmark-title">Dev</div>
+                <div class="bookmark-inner-container">
+                    <div class="bookmark"><a href="https://github.com">Github</a></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

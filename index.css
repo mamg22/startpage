@@ -1,0 +1,80 @@
+body {
+    font-family: "Liberation Mono";
+    color: #d2d4de;
+    background: #161821;
+    font-size: 10pt;
+}
+
+a {color:inherit; text-decoration: none}
+
+
+.container {
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    height: 100%;
+}
+
+
+.title {
+    margin-top: 24px;
+    margin-bottom: 12px;
+    font-size: 24pt;
+    text-align: center;
+}
+
+#clock {
+    text-align: center;
+    font-size: 24pt;
+    color: #b4be82;
+}
+
+.search-bar {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.search-bar input {
+    color: #d2d4de;
+    background-color: #161821;
+    border: 1px solid #6b7089;
+    width: 50%;
+    padding: 5px;
+    caret-color: #6b7089;
+}
+
+
+.search-bar input:focus::-webkit-input-placeholder { color:transparent; }
+.search-bar input:focus:-moz-placeholder { color:transparent; } /* FF 4-18 */
+.search-bar input:focus::-moz-placeholder { color:transparent; } /* FF 19+ */
+.search-bar input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
+
+.bookmark-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.bookmark-set {
+    margin-bottom: 10px;
+    flex: 1 0 200px;
+}
+
+.bookmark-title {
+    font-size: 18pt;
+    text-align: center;
+    color: #e27878;
+}
+
+.bookmark {
+    font-size: 11pt;
+    margin-bottom: 2px;
+    text-align: center;
+    color: #95c4ce;
+}
+.bookmark a:focus {
+    font-weight: bold;
+}
