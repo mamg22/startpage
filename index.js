@@ -7,9 +7,13 @@ function get_time()
 
     minutes = (minutes < 10 ? "0" + minutes : minutes)
 
-    indicator = (hours < 13 ? "am" : "pm")
+    indicator = (hours < 12 ? "am" : "pm")
 
     hours = (hours < 13 ? hours : hours - 12)
+
+    if (hours == 0) {
+        hours = 12
+    }
 
     return hours + ":" + minutes + indicator
 
