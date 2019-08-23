@@ -23,3 +23,8 @@ function update_clock()
 {
     document.getElementById("clock").innerText = get_time()
 }
+
+window.onload = function () {
+    update_clock()
+    setInterval(update_clock(), 10000)
+}
