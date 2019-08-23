@@ -4,4 +4,4 @@ This is a custom browser startpage / new tab page. Based on the Iceberg colorsch
 
 ## How does it look?
 
-![Screenshot](/screenshot.png)
+![Screenshot](/images/screenshot.png)
