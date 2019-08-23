@@ -26,5 +26,5 @@ function update_clock()
 
 window.onload = function () {
     update_clock()
-    setInterval(update_clock(), 10000)
+    setInterval(update_clock, 10000)
 }
