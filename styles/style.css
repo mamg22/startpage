@@ -1,15 +1,15 @@
 body {
     font-family: monospace;
-    color: #d2d4de;
-    background-color: #161821;
+    color: #ebdbb2;
+    background-color: #1d2021;
     font-size: 10pt;
 }
+
 
 a {
     color: inherit;
     text-decoration: none;
 }
-
 
 .container {
     display:flex;
@@ -28,7 +28,7 @@ a {
 #clock {
     text-align: center;
     font-size: 24pt;
-    color: #b4be82;
+    color: #b8bb26;
     padding-top: 1ex;
     padding-bottom: 1ex;
 }
@@ -70,14 +70,14 @@ a {
 .bookmark-title {
     font-size: 18pt;
     text-align: center;
-    color: #e27878;
+    color: #fb4934;
 }
 
 .bookmark {
     font-size: 11pt;
     margin-bottom: 2px;
     text-align: center;
-    color: #95c4ce;
+    color: #83a598;
 }
 .bookmark a:hover {
     font-weight: bold;
